@@ -136,7 +136,16 @@ main{
        margin-bottom: 10px;
 }
 
+/* Sponsors styles */
+.sponsors{
+    text-align: center;
+}
 
+.sponsors-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 /* responsive media queries */
@@ -147,6 +156,7 @@ main{
     ]
     nav, 
     .teams-container 
+    .facts-card-container
     {
        flex-direction: column;
     }
@@ -157,6 +167,9 @@ main{
     .teams-content{
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .facts-card-container{
+        gap: 20px;
     }
 }
 
